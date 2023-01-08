@@ -8,7 +8,7 @@ export default function Info() {
             <img src={img} alt="img" className='profile-photo' />
             <h1 className='person-name'>Sujit Banne</h1>
             <h4 className='profession'>Frontend Developer</h4>
-            <p className='website-link'><a href='#'>sujitbanne.website</a></p>
+            <p className='website-link'>sujitbanne.website</p>
             <div className="websites">
                 <a href="mailto:sujitbanne13@gmail.com"  className="email">
                     <img src={Mail} alt="mail"/>
