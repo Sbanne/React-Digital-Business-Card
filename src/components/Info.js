@@ -5,17 +5,17 @@ import Linkedin from '../images/Linkedin-Icon.svg'
 export default function Info() {
     return (
         <div>
-            <img src={img} alt="image" className='profile-photo' />
+            <img src={img} alt="img" className='profile-photo' />
             <h1 className='person-name'>Sujit Banne</h1>
             <h4 className='profession'>Frontend Developer</h4>
             <p className='website-link'><a href='#'>sujitbanne.website</a></p>
             <div className="websites">
-                <a href="mailto:sujitbanne13@gmail.com" target="_blank" className="email">
-                    <img src={Mail} />
+                <a href="mailto:sujitbanne13@gmail.com"  className="email">
+                    <img src={Mail} alt="mail"/>
                     <p>Email</p>
                 </a>
-                <a href="https://www.linkedin.com/in/sujit-banne-920a96184/" target="_blank" className="linkedin" >
-                    <img src={Linkedin} />
+                <a href="https://www.linkedin.com/in/sujit-banne-920a96184/"  className="linkedin" >
+                    <img src={Linkedin} alt="linkdein" />
                     <p>Linkedin</p>
                 </a>
             </div>
